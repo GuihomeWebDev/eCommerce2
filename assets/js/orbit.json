@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Cigare éléctronique",
+        "prix": 55,
+        "img": "assets/img/mini-cigare-electronique-atomatique.png",
+        "description": "lol"
+    },
+    {
+        "name": "HOOCKY Royale",
+        "prix": 125,
+        "img": "assets/img/hooky-royal.png",
+        "description": "lol"
+    },
+    {
+        "name": "E-HORSE 2.0",
+        "prix": 90,
+        "img": "assets/img/e-hose-20-chicha-electronique.png",
+        "description": "lol"
+    },
+    {
+        "name": "Pipe Guardian 40 w TC Smok",
+        "prix": 85,
+        "img": "assets/img/mini-pipe-guardian-smok.png",
+        "description": "lol"
+    },
+    {
+        "name": "Narguilé électronique Protheus Aspire",
+        "prix": 75,
+        "img": "assets/img/mini-e-narguile-aspire.png",
+        "description": "lol"
+    },
+    {
+        "index": 0,
+        "color": "arc-en-ciel",
+        "name": "Garette Terry",
+        "type": "E.cigarette",
+        "description": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+        "prix": 64,
+        "img": "assets/img/cig.png" 
+    },
+    {
+        "index": 1,
+        "color": "sylver",
+        "name": "Garette Wilcox",
+        "type": "E.cigarette",
+        "description": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+        "prix": 55.24,
+        "img": "assets/img/cig2.png" 
+    },
+    {
+        "index": 2,
+        "color": "red",
+        "name": "Garette Russo",
+        "type": "E.cigarette",
+        "description": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+        "prix": 24,
+        "img": "assets/img/cig3.png" 
+    },
+    {
+        "index": 3,
+        "color": "green",
+        "name": "Garette Lane",
+        "type": "E.cigarette",
+        "description": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+        "prix": 80,
+        "img": "assets/img/cig4.png" 
+    },
+    {
+        "index": 4,
+        "color": "black",
+        "name": "Garette Nielsen",
+        "type": "E.cigarette",
+        "description": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+        "prix": 64,
+        "img": "assets/img/cig5.png" 
+    },
+    {
+        "name": "Hustle Grape The Fuu",
+        "prix": 6,
+        "img": "assets/img/xhustle-grape-the-fuu.jpg.pagespeed.ic.zgLT9Hd1Vo.png",
+        "description": "Goût de Bonbon acidulé au Raisin !"
+    },
+    {
+        "name": "221B Beard Street Addiction",
+        "prix": 6,
+        "img": "assets/img/x221b-beard-street-addiction.jpg.pagespeed.ic.40AdJB6UC6.png",
+        "description": "Délicieux goût de Rhubarbe, de Framboise, enrobé de Vanille"
+    },
+    {
+        "name": "Macadamiam Fifty",
+        "prix": 6,
+        "img": "assets/img/xmacadamiam-fifty.jpg.pagespeed.ic.awSk2fkIk1.png",
+        "description": "Noix sur une couche de Crème glacée vanillée"
+    },
+    {
+        "name": "Breakfast Burnout Fifty",
+        "prix": 6,
+        "img": "assets/img/xbreakfast-burnout-fifty.jpg.pagespeed.ic.0FGhbtg1SO.png",
+        "description": "Délicieux bol de céréales pour un petit déjeuner gourmand !"
+    },
+    {
+        "name": "Brown Sugar Addiction",
+        "prix": 6,
+        "img": "assets/img/xbrown-sugar-addiction.jpg.pagespeed.ic.LIRguuUS0q.png",
+        "description": "Délicieux goût de Tabac gourmand !"
+    },
+    {
+        "name": "Clearomiseur Garette",
+        "price": 4.99,
+        "img": "assets/img/clearomiseur.png",
+        "description": "Dernier modèle de la marque, le tank (tube transparent) est désormais en pyrex, plus résistant et toujours aussi facile à nettoyer."
+    },
+    {
+        "name": "Drip Tip Garette",
+        "price": 2.49,
+        "img": "assets/img/driptip.png",
+        "description": "Embout ergonomique, simple à visser."
+    },
+    {
+        "name": "Résistance Garette",
+        "price": 2.99,
+        "img": "assets/img/resistance.png",
+        "description": "Pack de 5, disponible en 2,2 ohms."
+    },
+    {
+        "name": "Batterie Garette",
+        "price": 25.49,
+        "img": "assets/img/batterie.png",
+        "description": "Autonomie de 1050 mah (9h). Pas de vis : 510."
+    },
+    {
+        "name": "Chargeur de batterie Garette",
+        "price": 4.99,
+        "img": "assets/img/chargeur-usb.png",
+        "description": "Compatible avec toutes les batteries de e-cigarettes."
+    },
+    {
+        "name": "Accu Garette",
+        "price": 8.99,
+        "img": "assets/img/accu.png",
+        "description": "Autonomie de 2500 mah (23h), 35 Ampères."
+    },
+    {
+        "name": "Chardeur d'accu Garette",
+        "price": 18.90,
+        "img": "assets/img/chargeur-accu.png",
+        "description": "Chargeur Accu, double. Directement à la prise."
+    }
+]

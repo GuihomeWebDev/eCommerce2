@@ -1,0 +1,9 @@
+<div class="row">
+<div  ng-repeat="ecig in ecigs" class="large-6 columns content end">
+    <h2>{{ecig.name}}</h2>
+    <img src="{{ecig.img}}" class="thumbnail"/>
+    <p>{{ecig.descriptif}}</p>
+    <p>{{ecig.prix|currency:'€'}}</p>
+    <button type="button" class="button" name="button" ng-click="add($index)">ajouter</button>
+</div>
+</div>

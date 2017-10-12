@@ -1,0 +1,15 @@
+<div class="row">
+  <!--large-6 columns : col-lg-6 de Bootstrap version Foundation.
+  end : class pour que le dernier élément s'aligne à gauche-->
+    <div class="large-6 columns content end" ng-repeat="accessory in accessories">
+<!--accessory est une variable, accessories est un tableau, accessory.name = variable.élément du tableau que je souhaite-->
+        <h2>{{accessory.name}}</h2>
+        <!--La classe thumbnail de Foundation permet une image carrée et redimensionnée avec une bordure fine-->
+        <img src="{{accessory.image}}" class="thumbnail" alt="photo">
+        <p>{{accessory.description}}</p>
+        <!--currency:"€" = unité monaitaire-->
+        <p>{{accessory.price|currency:"€"}}</p>
+        <!--Dans mon ng-click, add($index) permet d'ajouter l'élément sélectionné au panier.-->
+        <button type="button" class="button" name="button" ng-click="add($index)">ajouter</button>
+    </div>
+</div>

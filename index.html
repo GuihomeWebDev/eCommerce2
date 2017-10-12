@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>E-garette</title>
+        <link href="assets/lib/foundation/css/foundation.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/lib/foundation/motion ui/motion-ui.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="assets/lib/foundation/foundation-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <!-- ng app defini angularjs--> 
+    <body ng-app="garette" ng-controller="accueil">
+        <header>
+            <a class="menuPagination" data-toggle="offCanvasLeftSPlit1"><i class="fi-list size-12"></i></a>
+            <h1 class="faa-pulse animated">E garette</h1>
+            <a data-open="cartModal"><i class="fi-shopping-cart size-12"></i></a>
+        </header>
+        <div ng-view></div>
+        <div class="row">
+            <div class="large-2 columns">
+                <div class="off-canvas-wrapper">
+                    <div class="off-canvas position-left" id="offCanvasLeftSPlit1" data-off-canvas>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-target="off-canvas" href="#!/">Acceuil</a></li>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-target="off-canvas" href="#!/ecigarette">E.cigarette</a></li>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-target="off-canvas" href="#!/liquide">Liquides</a></li>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-target="off-canvas" href="#!/accessoire" >Accessoires</a></li>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-target="off-canvas" href="#!/autre">Autres</a></li>
+                        <li><a data-toggle="offCanvasLeftSPlit1" data-open="cartModal" >Panier</a></li>
+                    </div>
+                    <div class="off-canvas-content" style="min-height: 120px;" data-off-canvas-content>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reveal" id="cartModal" data-reveal>
+            <h1>Vos achats :</h1>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!--repete la formule pour tous les objets du tableau pour afficher dans le panier article prix quantite-->
+            <div ng-repeat="article in cart">
+                <img src="{{article.img}}" alt="">
+                <p class="lead">Article : {{article.name}} <i class="fi-price-tag size-12"></i> Prix : {{article.price * article.quantity| currency:"€"}} <i class="fi-euro size-12"></i>
+                </p>
+                <p>Description : {{article.description}}
+                </p>
+                <!-- ng model variable qui recupere et stocke la quantite à mettre dans le panier-min=1 pour pas qtite négative-->
+                <input type="number" ng-model="article.quantity" min="1">
+                <!-- au click du bouton cela appelle la fonction remove qui supprime le dernier article du panier-->
+                <button type="button" class="button" name="button" ng-click="remove($index)">Supprimer</button>
+            </div>
+            <p>Total : {{total()|currency:"€"}} <i class="fi-euro size-12"></i></p>
+        </div>
+        <!-- affiche les vues dans la div du html-->
+        <script src="assets/lib/foundation/js/vendor/jquery.js" charset="utf-8"></script>
+        <script src="assets/lib/foundation/js/vendor/foundation.min.js" charset="utf-8"></script>
+        <script src="assets/lib/foundation/js/app.js" charset="utf-8"></script>
+        <script src="assets/lib/angular/angular.js" type="text/javascript"></script>
+        <script src="assets/lib/angular/angular-route.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+    </body>
+</html>

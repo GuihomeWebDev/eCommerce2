@@ -1,0 +1,7 @@
+{
+  "name": "quentin",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-route": "1.6.4"
+  }
+}

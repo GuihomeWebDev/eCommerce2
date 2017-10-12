@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Cigare éléctronique",
+        "prix": 55,
+        "img": "assets/img/mini-cigare-electronique-atomatique.png",
+        "description": "cet article vous permettra de tirer la meilleur experience de la vape."
+    },
+    {
+        "name": "HOOCKY Royale",
+        "prix": 125,
+        "img": "assets/img/hooky-royal.png",
+        "description": "Elégant et puissant vous ne pourrez plus vivre sans."
+    },
+    {
+        "name": "E-HORSE 2.0",
+        "prix": 90,
+        "img": "assets/img/e-hose-20-chicha-electronique.png",
+        "description": "moment de détente entre amis à l'aperitif ce produit sera trouver sa place."
+    },
+    {
+        "name": "Pipe Guardian 40 w TC Smok",
+        "prix": 85,
+        "img": "assets/img/mini-pipe-guardian-smok.png",
+        "description": "un look de detective de serie B scherlock holmes n'a qu'a bien se tenir..."
+    },
+    {
+        "name": "Narguilé électronique Protheus Aspire",
+        "prix": 75,
+        "img": "assets/img/mini-e-narguile-aspire.png",
+        "description": "emmenez le partout avec vous le nargilé de poche vous permettra de partager des expériences de vap around the world."
+    }
+]

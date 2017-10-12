@@ -1,0 +1,80 @@
+.thumbnail{
+    border-width: 0px;
+    height: 194px;
+    width: 194px;
+}
+.orbit-image{
+    height: 388px;
+    width: 388px;
+    text-align: center;
+}
+/*size-12 est une class de Foundation mais je dois quand-même préciser la taille*/
+.size-12{
+  font-size: 20px; /*J'ai changé la taille mais pas la classe*/
+}
+.lead{
+  color: #785569;
+  font-family: Arial, serif;
+}
+/*debut style header */
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    height:  70px;
+    width: auto;
+    font-family: weight;
+    background-image:-moz-linear-gradient(left, #749795, #785569);
+    color:white;
+}
+i{
+    color: black;
+}
+a{
+    color: black;
+}
+li{
+     background-image:-moz-linear-gradient(left, #749795, #785569);
+       color: black;
+   }
+body{
+    background: url('../img/smoke.jpg') no-repeat fixed;
+    background-size: cover;
+}
+/*menu*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.toto ul{
+  -webkit-transform: translate(-50px, 0);
+  -moz-transform: translate(-50px, 0);
+  -ms-transform: translate(-50px, 0);
+  -o-transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
+}
+#divider{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+.block_menu{
+  z-index: 1000;
+}
+.menu{
+   background-image:-moz-linear-gradient(left, #749795, #785569);
+   height: 50px;
+   width: 100px;
+   font-size:large;
+   font-weight: bold;
+   color:white;
+}
+body{
+    background: url("../img/smoke.jpg") no-repeat fixed;
+    background-size: cover;
+    border-width: 0px;
+}
+.content{
+    margin-top: 100px;
+}

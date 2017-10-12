@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Hustle Grape The Fuu",
+        "prix": 6,
+        "img": "assets/img/xhustle-grape-the-fuu.jpg.pagespeed.ic.zgLT9Hd1Vo.png",
+        "description": "Goût de Bonbon acidulé au Raisin !"
+    },
+    {
+        "name": "221B Beard Street",
+        "prix": 6,
+        "img": "assets/img/x221b-beard-street-addiction.jpg.pagespeed.ic.40AdJB6UC6.png",
+        "description": "Délicieux goût de Rhubarbe, de Framboise, enrobé de Vanille"
+    },
+    {
+        "name": "Macadamiam Fifty",
+        "prix": 6,
+        "img": "assets/img/xmacadamiam-fifty.jpg.pagespeed.ic.awSk2fkIk1.png",
+        "description": "Noix sur une couche de Crème glacée vanillée"
+    },
+    {
+        "name": "Breakfast Burnout Fifty",
+        "prix": 6,
+        "img": "assets/img/xbreakfast-burnout-fifty.jpg.pagespeed.ic.0FGhbtg1SO.png",
+        "description": "Délicieux bol de céréales pour un petit déjeuner gourmand !"
+    },
+    {
+        "name": "Brown Sugar Addiction",
+        "prix": 6,
+        "img": "assets/img/xbrown-sugar-addiction.jpg.pagespeed.ic.LIRguuUS0q.png",
+        "description": "Délicieux goût de Tabac gourmand !"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Clearomiseur Garette",
+        "price": 4.99,
+        "image": "assets/img/clearomiseur.png",
+        "description": "Dernier modèle de la marque, le tank (tube transparent) est désormais en pyrex."
+    },
+    {
+        "name": "Drip Tip Garette",
+        "price": 2.49,
+        "image": "assets/img/driptip.png",
+        "description": "Embout ergonomique, simple à visser."
+    },
+    {
+        "name": "Résistance Garette",
+        "price": 2.99,
+        "image": "assets/img/resistance.png",
+        "description": "Pack de 5, disponible en 2,2 ohms."
+    },
+    {
+        "name": "Batterie Garette",
+        "price": 25.49,
+        "image": "assets/img/batterie.png",
+        "description": "Autonomie de 1050 mah (9h). Pas de vis : 510."
+    },
+    {
+        "name": "Chargeur de batterie Garette",
+        "price": 4.99,
+        "image": "assets/img/chargeur-usb.png",
+        "description": "Compatible avec toutes les batteries de e-cigarettes."
+    },
+    {
+        "name": "Accu Garette",
+        "price": 8.99,
+        "image": "assets/img/accu.png",
+        "description": "Autonomie de 2500 mah (23h), 35 Ampères."
+    },
+    {
+        "name": "Chardeur d'accu Garette",
+        "price": 18.90,
+        "image": "assets/img/chargeur-accu.png",
+        "description": "Chargeur Accu, double. Directement à la prise."
+    }
+]

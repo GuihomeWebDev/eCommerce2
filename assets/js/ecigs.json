@@ -1,0 +1,47 @@
+[
+  {
+    "index": 0,
+    "color": "arc-en-ciel",
+    "name": "Garette Terry",
+    "type": "E.cigarette",
+    "descriptif": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+    "prix": 64,
+    "img": "assets/img/cig.png" 
+  },
+  {
+    "index": 1,
+    "color": "sylver",
+    "name": "Garette Wilcox",
+    "type": "E.cigarette",
+    "descriptif": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+    "prix": 55.24,
+    "img": "assets/img/cig2.png" 
+  },
+  {
+    "index": 2,
+    "color": "red",
+    "name": "Garette Russo",
+    "type": "E.cigarette",
+    "descriptif": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+    "prix": 24,
+    "img": "assets/img/cig3.png" 
+  },
+  {
+    "index": 3,
+    "color": "green",
+    "name": "Garette Lane",
+    "type": "E.cigarette",
+    "descriptif": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+    "prix": 80,
+    "img": "assets/img/cig4.png" 
+  },
+  {
+    "index": 4,
+    "color": "black",
+    "name": "Garette Nielsen",
+    "type": "E.cigarette",
+    "descriptif": "cette cigarette électronique est faite pour vous alliant à la fois confort, robustesse et technologie",
+    "prix": 64,
+    "img": "assets/img/cig5.png" 
+  }
+]
